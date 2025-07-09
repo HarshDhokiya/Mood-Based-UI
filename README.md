@@ -1,12 +1,46 @@
-# React + Vite
+🎨 React Mood-Based UI App
+A dynamic and intelligent web app that changes theme, layout, and content based on the user’s mood — detected manually or through AI-powered facial expression recognition using a webcam.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Features
+✅ Manual mood selection (Happy, Sad, Angry, Neutral, Love)
+✅ AI Mood Detection using webcam (via face-api.js)
+✅ Dynamic theming using Tailwind CSS
+✅ Mood-based content: quotes + emojis
+✅ Toggle between Manual and AI Detection modes
+✅ Clean, responsive UI built with React + Vite
 
-Currently, two official plugins are available:
+🧠 Tech Stack
+React.js (Vite setup)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS (for styling)
 
-## Expanding the ESLint configuration
+face-api.js (facial expression detection)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript & HTML5 Video API
+
+Optional: localStorage, GIPHY API, or Framer Motion for future upgrades
+
+📸 How It Works
+Choose a mood manually from buttons — or let the AI detect your face.
+
+The app analyzes facial expressions and auto-selects the dominant emotion.
+
+The entire UI updates:
+
+🎨 Background theme
+
+🧠 Emoji & quote
+
+🖥️ Optional animations or sound (future scope)
+
+📦 Future Improvements
+🎵 Mood-based music & GIFs
+
+📊 Mood history charts using localStorage
+
+🌙 Dark/light theme toggle
+
+🔊 Text-to-speech feedback
+
+🧑‍💻 Author
+Made with 💖 by Harsh Prajapati
